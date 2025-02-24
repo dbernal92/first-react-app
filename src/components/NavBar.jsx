@@ -1,12 +1,30 @@
+import PerScholasLogo from "./PerScholasLogo";
 
+function NavBar() {
+    // const username = "Darien";
 
-function NavBar () {
-    return (
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
+    const userInfo = {
+        username: "Darien",
+    };
+    
+      return (
+        <nav className="mt-5" onClick={() => alert("clicked")} style={styles}>
+      <PerScholasLogo />
+          <a href="#" className="some-class">
+        Home
+      </a>
+      <a href="#">About</a>
+    
+      <div>
+        Welcome, {userInfo.username} cart {50 + 67}
+      </div>
         </nav>
-    )
-}
-
-export default NavBar
+      );
+    }
+    
+    const styles = {
+        display: "flex", 
+        justifyContent: "space-around"
+    }
+    
+    export default NavBar;
