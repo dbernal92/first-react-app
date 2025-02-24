@@ -8,5 +8,6 @@ function PerScholasLogo() {
   
     return <img src={imgURL} alt={alt} />;
   }
+  <hr />
   
   export default PerScholasLogo;

@@ -7,7 +7,10 @@ function App() {
 
   return (
     <div>
+      <PerScholasLogo />
+      <hr />
       <NavBar />
+      <hr />
       <h1>First React App</h1>
       <hr />
       <Footer />
