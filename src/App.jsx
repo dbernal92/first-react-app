@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from './components/NavBar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
     <div>
       <NavBar />
       <h1>First React App</h1>
+      <hr />
+      <Footer />
     </div>
   )
 }
